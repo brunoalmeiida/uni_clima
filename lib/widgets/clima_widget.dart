@@ -8,17 +8,6 @@ class ClimaWidget extends StatelessWidget {
 
   String primeiraMaiuscula(String s) => s[0].toUpperCase() + s.substring(1);
 
-  /*
-  //é o mesmo que...:
-  String primeiraMai(String s) {
-    //return s[0].toUpperCase() + s.substring(1);
-    //OU
-    String nova = "";
-    nova = nova + s[0].toUpperCase();
-    nova = nova + s.substring(1);
-    return nova;
-  }*/
-
   @override
   Widget build(BuildContext context) {
     return Column(children: [
